@@ -29,7 +29,7 @@ Task 2 centers around Exploratory Data Analysis (EDA). Participants are tasked w
 
 #### Task 3: Feature Engineering and Model Training
 
-Task 3 encompasses feature engineering and model training. Participants are expected to engineer additional features that demonstrate predictive power in identifying customer churn. Subsequently, they are required to train a Random Forest Classifier model to predict customer churn. As a bonus, participants should explore the potential profitability of offering a 20% discount to customers at risk of churning.
+Task 3 encompasses feature engineering and model training. Participants are expected to engineer additional features that demonstrate predictive power in identifying customer churn. Subsequently, they are required to train a Random Forest Classifier model to predict customer churn. As a bonus, participants should explore the potential profitability of offering a 20% discount to customers at risk of churning. (The ML solutions will be linked soon)
 
 #### Task 4: (Yet to be uploaded)
 
