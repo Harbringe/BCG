@@ -33,7 +33,7 @@ Task 3 encompasses feature engineering and model training. Participants are expe
 
 #### Task 4: (Yet to be uploaded)
 
-By structuring the repository in this manner, participants can systematically progress through each task, incrementally building upon their analysis and modeling efforts. This professional organization facilitates clarity, efficiency, and coherence in the project workflow.
+By structuring the repository in this manner, participants can systematically progress through each task, incrementally building upon their analysis and modeling efforts. 
   
 ### Usage
 Researchers, data scientists, and business analysts can leverage this repository to gain insights into customer churn dynamics and develop strategies to mitigate churn effectively. By understanding the underlying factors driving churn, PowerCo can proactively address customer needs and enhance customer retention efforts.
