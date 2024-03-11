@@ -5,9 +5,7 @@ This repository is dedicated to analyzing the customer churn trends of PowerCo, 
 ### Overview
 PowerCo serves as a case study for exploring various aspects of customer churn, including:
 
-- **Data Collection:** Gathering relevant data sets pertaining to customer interactions, demographics, usage patterns, and churn instances.
-  
-- **Data Preprocessing:** Cleaning and organizing the collected data to make it suitable for analysis. This may involve handling missing values, encoding categorical variables, and scaling numerical features.
+- **Data Preprocessing:** Cleaning and organizing the provided data to make it suitable for analysis. This may involve handling missing values, encoding categorical variables, and scaling numerical features.
   
 - **Exploratory Data Analysis (EDA):** Investigating the data to identify patterns, correlations, and potential factors contributing to churn. Visualization techniques are employed to gain insights into customer behavior.
   
@@ -16,20 +14,27 @@ PowerCo serves as a case study for exploring various aspects of customer churn, 
 - **Feature Importance Analysis:** Determining the key features that influence churn prediction. This helps in understanding the drivers behind customer attrition and devising strategies to retain valuable customers.
   
 - **Recommendation and Action Planning:** Formulating actionable recommendations based on the analysis findings to reduce churn rates. These recommendations may involve targeted marketing campaigns, personalized offers, or service improvements.
-  
-### Repository Structure
-The repository is organized into the following sections:
 
-1. **Data:** Contains the raw and processed data files used for analysis.
-   
-2. **Notebooks:** Jupyter notebooks documenting the step-by-step analysis process, including data exploration, model development, and result interpretation.
-   
-3. **Scripts:** Python scripts for data preprocessing, model training, and evaluation.
-   
-4. **Reports:** Summarized reports and presentations outlining the analysis findings, insights, and recommendations.
-   
-5. **Documentation:** Additional documentation such as README files, data dictionaries, and model documentation.
-   
+### Repository Structure
+
+The repository is structured into four distinct tasks, each contributing progressively towards the completion of the assignment.
+
+#### Task 1: Problem Statement Analysis and Framing
+
+In Task 1, the primary focus is on conducting an initial analysis of the problem statement. Participants are required to articulate their thought process and initial approach to tackling the problem. Additionally, they must frame the problem statement within the realm of data science, outlining its key components and objectives.
+
+#### Task 2: Exploratory Data Analysis (EDA)
+
+Task 2 centers around Exploratory Data Analysis (EDA). Participants are tasked with performing thorough EDA on the provided dataset to uncover patterns and insights. Furthermore, there are specific bonus milestones that participants can aim to achieve during this phase, enhancing the depth and quality of their analysis.
+
+#### Task 3: Feature Engineering and Model Training
+
+Task 3 encompasses feature engineering and model training. Participants are expected to engineer additional features that demonstrate predictive power in identifying customer churn. Subsequently, they are required to train a Random Forest Classifier model to predict customer churn. As a bonus, participants should explore the potential profitability of offering a 20% discount to customers at risk of churning.
+
+#### Task 4: (Yet to be uploaded)
+
+By structuring the repository in this manner, participants can systematically progress through each task, incrementally building upon their analysis and modeling efforts. This professional organization facilitates clarity, efficiency, and coherence in the project workflow.
+  
 ### Usage
 Researchers, data scientists, and business analysts can leverage this repository to gain insights into customer churn dynamics and develop strategies to mitigate churn effectively. By understanding the underlying factors driving churn, PowerCo can proactively address customer needs and enhance customer retention efforts.
 
