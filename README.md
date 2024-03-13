@@ -1,5 +1,3 @@
-
-https://github.com/Harbringe/BCG/assets/99803292/75996e70-6a24-4d2a-8887-806a4e382904
 # PowerCo Customer Churn Analysis Repository
 
 This repository is dedicated to analyzing the customer churn trends of PowerCo, a utility company. Customer churn refers to the phenomenon where customers discontinue their services with a company over a certain period. Understanding and mitigating churn is crucial for businesses like PowerCo to maintain a stable customer base and sustain growth.
@@ -22,6 +20,8 @@ PowerCo serves as a case study for exploring various aspects of customer churn, 
 The repository is structured into four distinct tasks, each contributing progressively towards the completion of the assignment.
 
 ### Task 1: Business Understanding and Hypothesis Framing:
+
+[Task 1 Link](https://github.com/Harbringe/BCG/assets/99803292/75996e70-6a24-4d2a-8887-806a4e382904)
 
 #### Background Information:
 
@@ -83,7 +83,11 @@ insights about the customer's churn behaviour?
 **Estimated time for task completion: 1 hour depending on your learning style.**
 
 
-#### Task 2: Exploratory Data Analysis
+### Task 2: Exploratory Data Analysis
+  
+
+[Task 2 Link](https://github.com/Harbringe/BCG/assets/99803292/dac90df4-3772-4a6d-855e-5ae94e8c9209)
+
 
 **Background Information:**
 The BCG project team thinks that building a churn model to understand whether price sensitivity is the largest driver of churn has potential. The client has sent over some data and the AD wants you to perform some exploratory data analysis.
@@ -134,26 +138,134 @@ think of all possible ways and investigate them.
 **Estimated time for task completion: 1.75 hours depending on your learning style.**
 
 **Making graphs in Python:**
-**1. Matplotlib : Visualization and Python - ** [https://matplotlib.org/](https://matplotlib.org/)
+
+**1. Matplotlib : Visualization and Python -** [https://matplotlib.org/](https://matplotlib.org/)
+
 **2. Seaborn : Statistical Data Visualization -** [https://seaborn.pydata.org/index.html](https://seaborn.pydata.org/index.html)
 
 **Making graphs in R:**
+
 **1. Ggplot 2-** [https://ggplot2.tidyverse.org/](https://ggplot2.tidyverse.org/)
+
 **2. Plotly R Open Source Graphing Library -** [https://plotly.com/r/](https://plotly.com/r/)
 
-#### Task 3: Feature Engineering and Model Training
+### Task 3: Feature Engineering and Model Training
 
-Task 3 encompasses feature engineering and model training. Participants are expected to engineer additional features that demonstrate predictive power in identifying customer churn. Subsequently, they are required to train a Random Forest Classifier model to predict customer churn. As a bonus, participants should explore the potential profitability of offering a 20% discount to customers at risk of churning. 
-(The ML solutions for this task will be linked soon)
+
+[Task 3 Link](https://github.com/Harbringe/BCG/assets/99803292/382ed37e-cc16-45aa-b435-b720005d2552)
+
+
+#### Background Information:
+
+The team now has a good understanding of the data and feels confident to use
+the data to further understand the business problem. The team now needs to
+brainstorm and build out features to uncover signals in the data that could inform
+the churn model.
+
+Feature engineering is one of the keys to unlocking predictive insight through
+mathematical modelling. Based on the data that is available and was cleaned,
+identify what you think could be drivers of churn for our client and build those
+features to later use in your model.
+
+First focus on building on top of the feature that your colleague has already
+investigated: “the difference between off-peak prices in December and January
+the preceding year”. After this, if you have time, feel free to get creative with
+making any other features that you feel are worthwhile.
+
+Once you have a set of features, you must train a Random Forest classifier to
+predict customer churn and evaluate the performance of the model with suitable
+evaluation metrics. Be rigorous with your approach and give full justification for
+any decisions made by yourself as the intern data scientist.
+Recall that the hypotheses under consideration is that churn is driven by the
+customers’ price sensitivities and that it would be possible to predict customers
+likely to churn using a predictive model.
+
+If you’re eager to go the extra mile for the client, when you have a trained
+predictive model, remember to investigate the client’s proposed discounting
+strategy, with the head of the SME division suggesting that offering customers at
+high propensity to churn a 20% discount might be effective.
+
+Build your models and test them while keeping in mind you would need data to
+prove/disprove the hypotheses, as well as to test the effect of a 20% discount on
+customers at high propensity to churn.
+
+#### Task Brief:
+
+**Sub-Task 1** 
+Your colleague has done some work on engineering the features within the
+cleaned dataset and has calculated a feature which seems to have predictive
+power.
+
+This feature is **“the difference between off-peak prices in December and January
+the preceding year”.**
+
+Run the cells in the notebook provided (named feature_engineering.ipynb) to
+re-create this feature. then try to think of ways to improve the feature’s predictive
+power and elaborate why you made those choices.
+
+You should spend 1 - 1.5 hours on this. Be sure to make use of the
+“feature_engineering.ipynb” notebook to get started with re-creating your
+colleagues' features.
+
+**Sub-Task 2**
+
+Now that you have a dataset of cleaned and engineered features, it is time to
+build a predictive model to see how well these features are able to predict a
+customer churning. It is your task to train a Random Forest classifier and to
+evaluate the results in an appropriate manner. We would also like you to
+document the advantages and disadvantages of using a Random Forest for this
+use case. It is up to you how to fulfil this task, but you may want to use the below
+points to guide your work:
+
+- Ensure you’re able to explain the performance of your model, where did the
+model underperform?
+- Why did you choose the evaluation metrics that you used? Please elaborate on
+your choices.
+- Document the advantages and disadvantages of using the Random Forest for
+this use case.
+- Do you think that the model performance is satisfactory? Give justification for
+your answer.
+- (Bonus) - Relate the model performance to the client's financial performance
+with the introduction of the discount proposition. How much money could a client
+save with the use of the model? What assumptions did you make to come to this
+conclusion?
+
+You should spend 1 - 1.5 hours on this. When it comes to model evaluation and the
+explanation of your results, feel free to use the additional links.
+
+**If you are stuck:**
+
+**Sub-Task 1**
+- Think of ways to evaluate a feature against a label.
+- Think of ways to add new features which would complement the already existing
+ones.
+- Think of feature granularity.
+- Remove unnecessary features.
+
+**Sub-Task 2**
+- Is this problem best represented as classification or regression?
+- What kind of model performance do you think is appropriate?
+- Most importantly how would you measure such a performance?
+- How would you tie business metrics such as profits or savings to the model
+performance?
+
+**Estimated time for task completion: 2-3 hours depending on your learning style.**
+
+**Making graphs in Python:**
+
+**1. Matplotlib - Visualization and Python -**[https://matplotlib.org/](https://matplotlib.org/)
+
+**2. Seaborn - Statistical Data Visualization -** [https://seaborn.pydata.org/index.html](https://seaborn.pydata.org/index.html)
+
+**Making graphs in R:**
+
+**1. Create Elegant Data Visualizations Using the Grammar of Graphics -** [https://ggplot2.tidyverse.org/](https://ggplot2.tidyverse.org/)
+
+**2. Plotly R Graphing Library -** [https://plotly.com/r/](https://plotly.com/r/)
 
 #### Task 4: (Yet to be uploaded)
 
 By structuring the repository in this manner, participants can systematically progress through each task, incrementally building upon their analysis and modeling efforts. 
   
-### Usage
-Researchers, data scientists, and business analysts can leverage this repository to gain insights into customer churn dynamics and develop strategies to mitigate churn effectively. By understanding the underlying factors driving churn, PowerCo can proactively address customer needs and enhance customer retention efforts.
-
 ### Disclaimer
 This repository is created for educational and research purposes.
-
-**This repository is still incomplete; more tasks will be completed and added soon.**
