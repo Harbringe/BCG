@@ -263,9 +263,49 @@ performance?
 
 **2. Plotly R Graphing Library -** [https://plotly.com/r/](https://plotly.com/r/)
 
-#### Task 4: (Yet to be uploaded)
+#### Task 4: 
 
-By structuring the repository in this manner, participants can systematically progress through each task, incrementally building upon their analysis and modeling efforts. 
-  
+
+
+**Background Information:**
+
+The client wants a quick update on the project progress.
+The AD wants you to draft an abstract (executive summary) of your findings so far.
+
+**Task Brief:**
+
+Develop an abstract slide synthesizing all the findings from the project so far,
+keeping in mind that this will be for the key stakeholders meeting which the Head
+of the SME division, as well as other various stakeholders, will be attending.
+
+**Note:** a steering committee meeting is a meeting where the BCG team presents
+key findings and recommendations (and/or project progress) to key client
+stakeholders.
+
+Please use the template and submit your summary slide in PDF format.
+
+A few things to think about for this abstract include:
+● What is the most important number or metric to share with the client?
+● What impact would the model have on the client’s bottom line?
+
+**If you are stuck:**
+● What do you think the client wants to hear? How much detail should you go
+into, especially with the technical details of your work?
+
+● Always test what you write with the “so what?” test, i.e. sharing a fact, even an
+interesting one, only matters if the client can actually do something useful with it.
+E.g. 60% of your customers are from City A is pointless, but customers in City A
+should be prioritized for giving discount as they are among your most valuable
+ones, if true, is an actionable finding
+
+**Estimated time for task completion: 30 minutes depending on your learning
+style.**
+
+**RESOURCES:**
+
+**● How to write an Executive Summary : Most Important Presentation Slide**
+(former Bain & company Manager ) -
+[https://www.youtube.com/watch?v=vbzpQfDIMG4](https://www.youtube.com/watch?v=vbzpQfDIMG4)
+
 ### Disclaimer
 This repository is created for educational and research purposes.
