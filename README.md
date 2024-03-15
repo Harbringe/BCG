@@ -265,7 +265,9 @@ performance?
 
 #### Task 4: 
 
-(facing issues with file uploads, will add video and task 4 soon) 
+
+https://github.com/Harbringe/BCG/assets/99803292/96dc6c48-8a3f-4ec5-a26c-73548ab1346c
+
 
 **Background Information:**
 
